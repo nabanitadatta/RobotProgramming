@@ -6,7 +6,7 @@ Tools: Eclipse, Maven, Junit
 
 Technology: Java
 
-Run Program: Created the program in TDD environment. Test File name is RobotTest.java. 3 test cases have been written there.
+Run Program: Created the task in TDD environment. Test File name is RobotTest.java. 3 test cases have been written there.
 Right click on that file-> choose Run -> choose Junit test.
 
 Some more test cases:
