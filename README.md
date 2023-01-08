@@ -11,8 +11,11 @@ Right click on that file-> choose Run -> choose Junit test.
 Some more test cases:
 
 10 10 (Room Size)
+
 0 0 NORTH (Starting position and facing Direction  of Robot)
+
 RFFLF (Given Command)
+
 Report: 2 1 N (Expected Output)
 
 5 5 (Room Size)
