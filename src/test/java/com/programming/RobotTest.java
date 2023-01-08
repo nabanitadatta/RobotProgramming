@@ -29,6 +29,7 @@ public class RobotTest {
 
 	// Walk towards North
 	@Test
+	//Given Command and expected output
 	@Parameters({ "RFRFFRFRF, Report: 1 1 N" })
 	public void walk_forward_northdir(String commands, String position) throws Exception {
 		assertThat(robot.execute(commands), is(position));
@@ -36,12 +37,13 @@ public class RobotTest {
 
 	// Walk towards North
 	@Test
+	//Given Command and expected output
 	@Parameters({ "LFLFLFLFF, Report: 1 3 N" })
 	public void walk_forward_north(String commands, String position) throws Exception {
 		assertThat(robot.execute(commands), is(position));
 	}
 
-	// Wrong commands and expected Exception
+	// Wrong command and expected Exception as output
 	@Test(expected = Exception.class)
 	@Parameters({ "dgTLFFR, " })
 	public void walk_forward_random(String commands, String position) throws Exception {
