@@ -68,8 +68,11 @@ LFFFFF (Given Command)
 Report: 101 0 W (Expected Output)
 
  5 5 (Room Size)
+ 
 -4 -4 SOUTH(Starting position and facing Direction of Robot)
+
 F(Given Command)
+
 Report: 4 101 S(Expected Output)
 
 In this task, code no. 101 stands for error code if Robot is out side of room. 
